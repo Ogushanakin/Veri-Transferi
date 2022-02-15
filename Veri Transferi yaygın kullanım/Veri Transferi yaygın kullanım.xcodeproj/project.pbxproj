@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711C703A27BBFA8C001D1F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C703927BBFA8C001D1F63 /* AppDelegate.swift */; };
+		711C703C27BBFA8C001D1F63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C703B27BBFA8C001D1F63 /* SceneDelegate.swift */; };
+		711C703E27BBFA8C001D1F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C703D27BBFA8C001D1F63 /* ViewController.swift */; };
+		711C704127BBFA8C001D1F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711C703F27BBFA8C001D1F63 /* Main.storyboard */; };
+		711C704327BBFA8C001D1F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711C704227BBFA8C001D1F63 /* Assets.xcassets */; };
+		711C704627BBFA8C001D1F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711C704427BBFA8C001D1F63 /* LaunchScreen.storyboard */; };
+		711C705127BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C705027BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mTests.swift */; };
+		711C705B27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C705A27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITests.swift */; };
+		711C705D27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C705C27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift */; };
+		711C706A27BBFAD7001D1F63 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C706927BBFAD7001D1F63 /* ViewControllerB.swift */; };
+		711C706C27BBFAEE001D1F63 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C706B27BBFAEE001D1F63 /* ViewControllerC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711C704D27BBFA8C001D1F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711C702E27BBFA8C001D1F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711C703527BBFA8C001D1F63;
+			remoteInfo = "Veri Transferi yaygın kullanım";
+		};
+		711C705727BBFA8C001D1F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711C702E27BBFA8C001D1F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711C703527BBFA8C001D1F63;
+			remoteInfo = "Veri Transferi yaygın kullanım";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711C703627BBFA8C001D1F63 /* Veri Transferi yaygın kullanım.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veri Transferi yaygın kullanım.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711C703927BBFA8C001D1F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		711C703B27BBFA8C001D1F63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		711C703D27BBFA8C001D1F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		711C704027BBFA8C001D1F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		711C704227BBFA8C001D1F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		711C704527BBFA8C001D1F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		711C704727BBFA8C001D1F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711C704C27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri Transferi yaygın kullanımTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711C705027BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_yayg_n_kullan_mTests.swift; sourceTree = "<group>"; };
+		711C705627BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri Transferi yaygın kullanımUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711C705A27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_yayg_n_kullan_mUITests.swift; sourceTree = "<group>"; };
+		711C705C27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		711C706927BBFAD7001D1F63 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		711C706B27BBFAEE001D1F63 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711C703327BBFA8C001D1F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C704927BBFA8C001D1F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C705327BBFA8C001D1F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711C702D27BBFA8C001D1F63 = {
+			isa = PBXGroup;
+			children = (
+				711C703827BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */,
+				711C704F27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests */,
+				711C705927BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests */,
+				711C703727BBFA8C001D1F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711C703727BBFA8C001D1F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711C703627BBFA8C001D1F63 /* Veri Transferi yaygın kullanım.app */,
+				711C704C27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests.xctest */,
+				711C705627BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711C703827BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */ = {
+			isa = PBXGroup;
+			children = (
+				711C703927BBFA8C001D1F63 /* AppDelegate.swift */,
+				711C703B27BBFA8C001D1F63 /* SceneDelegate.swift */,
+				711C703D27BBFA8C001D1F63 /* ViewController.swift */,
+				711C706927BBFAD7001D1F63 /* ViewControllerB.swift */,
+				711C706B27BBFAEE001D1F63 /* ViewControllerC.swift */,
+				711C703F27BBFA8C001D1F63 /* Main.storyboard */,
+				711C704227BBFA8C001D1F63 /* Assets.xcassets */,
+				711C704427BBFA8C001D1F63 /* LaunchScreen.storyboard */,
+				711C704727BBFA8C001D1F63 /* Info.plist */,
+			);
+			path = "Veri Transferi yaygın kullanım";
+			sourceTree = "<group>";
+		};
+		711C704F27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests */ = {
+			isa = PBXGroup;
+			children = (
+				711C705027BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mTests.swift */,
+			);
+			path = "Veri Transferi yaygın kullanımTests";
+			sourceTree = "<group>";
+		};
+		711C705927BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests */ = {
+			isa = PBXGroup;
+			children = (
+				711C705A27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITests.swift */,
+				711C705C27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift */,
+			);
+			path = "Veri Transferi yaygın kullanımUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711C703527BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711C706027BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanım" */;
+			buildPhases = (
+				711C703227BBFA8C001D1F63 /* Sources */,
+				711C703327BBFA8C001D1F63 /* Frameworks */,
+				711C703427BBFA8C001D1F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veri Transferi yaygın kullanım";
+			productName = "Veri Transferi yaygın kullanım";
+			productReference = 711C703627BBFA8C001D1F63 /* Veri Transferi yaygın kullanım.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711C704B27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711C706327BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanımTests" */;
+			buildPhases = (
+				711C704827BBFA8C001D1F63 /* Sources */,
+				711C704927BBFA8C001D1F63 /* Frameworks */,
+				711C704A27BBFA8C001D1F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711C704E27BBFA8C001D1F63 /* PBXTargetDependency */,
+			);
+			name = "Veri Transferi yaygın kullanımTests";
+			productName = "Veri Transferi yaygın kullanımTests";
+			productReference = 711C704C27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		711C705527BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711C706627BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanımUITests" */;
+			buildPhases = (
+				711C705227BBFA8C001D1F63 /* Sources */,
+				711C705327BBFA8C001D1F63 /* Frameworks */,
+				711C705427BBFA8C001D1F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711C705827BBFA8C001D1F63 /* PBXTargetDependency */,
+			);
+			name = "Veri Transferi yaygın kullanımUITests";
+			productName = "Veri Transferi yaygın kullanımUITests";
+			productReference = 711C705627BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711C702E27BBFA8C001D1F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					711C703527BBFA8C001D1F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					711C704B27BBFA8C001D1F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 711C703527BBFA8C001D1F63;
+					};
+					711C705527BBFA8C001D1F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 711C703527BBFA8C001D1F63;
+					};
+				};
+			};
+			buildConfigurationList = 711C703127BBFA8C001D1F63 /* Build configuration list for PBXProject "Veri Transferi yaygın kullanım" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711C702D27BBFA8C001D1F63;
+			productRefGroup = 711C703727BBFA8C001D1F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711C703527BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */,
+				711C704B27BBFA8C001D1F63 /* Veri Transferi yaygın kullanımTests */,
+				711C705527BBFA8C001D1F63 /* Veri Transferi yaygın kullanımUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711C703427BBFA8C001D1F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711C704627BBFA8C001D1F63 /* LaunchScreen.storyboard in Resources */,
+				711C704327BBFA8C001D1F63 /* Assets.xcassets in Resources */,
+				711C704127BBFA8C001D1F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C704A27BBFA8C001D1F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C705427BBFA8C001D1F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711C703227BBFA8C001D1F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711C703E27BBFA8C001D1F63 /* ViewController.swift in Sources */,
+				711C706A27BBFAD7001D1F63 /* ViewControllerB.swift in Sources */,
+				711C706C27BBFAEE001D1F63 /* ViewControllerC.swift in Sources */,
+				711C703A27BBFA8C001D1F63 /* AppDelegate.swift in Sources */,
+				711C703C27BBFA8C001D1F63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C704827BBFA8C001D1F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711C705127BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C705227BBFA8C001D1F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711C705B27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITests.swift in Sources */,
+				711C705D27BBFA8C001D1F63 /* Veri_Transferi_yayg_n_kullan_mUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711C704E27BBFA8C001D1F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711C703527BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */;
+			targetProxy = 711C704D27BBFA8C001D1F63 /* PBXContainerItemProxy */;
+		};
+		711C705827BBFA8C001D1F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711C703527BBFA8C001D1F63 /* Veri Transferi yaygın kullanım */;
+			targetProxy = 711C705727BBFA8C001D1F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711C703F27BBFA8C001D1F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711C704027BBFA8C001D1F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711C704427BBFA8C001D1F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711C704527BBFA8C001D1F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711C705E27BBFA8C001D1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		711C705F27BBFA8C001D1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711C706127BBFA8C001D1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri Transferi yaygın kullanım/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-m";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		711C706227BBFA8C001D1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veri Transferi yaygın kullanım/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-m";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		711C706427BBFA8C001D1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-mTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Transferi yaygın kullanım.app/Veri Transferi yaygın kullanım";
+			};
+			name = Debug;
+		};
+		711C706527BBFA8C001D1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-mTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Transferi yaygın kullanım.app/Veri Transferi yaygın kullanım";
+			};
+			name = Release;
+		};
+		711C706727BBFA8C001D1F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-mUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Transferi yaygın kullanım";
+			};
+			name = Debug;
+		};
+		711C706827BBFA8C001D1F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAHJ57W2W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzhankin.Veri-Transferi-yayg-n-kullan-mUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Transferi yaygın kullanım";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711C703127BBFA8C001D1F63 /* Build configuration list for PBXProject "Veri Transferi yaygın kullanım" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711C705E27BBFA8C001D1F63 /* Debug */,
+				711C705F27BBFA8C001D1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711C706027BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanım" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711C706127BBFA8C001D1F63 /* Debug */,
+				711C706227BBFA8C001D1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711C706327BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanımTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711C706427BBFA8C001D1F63 /* Debug */,
+				711C706527BBFA8C001D1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711C706627BBFA8C001D1F63 /* Build configuration list for PBXNativeTarget "Veri Transferi yaygın kullanımUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711C706727BBFA8C001D1F63 /* Debug */,
+				711C706827BBFA8C001D1F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711C702E27BBFA8C001D1F63 /* Project object */;
+}
